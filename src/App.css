@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-image: url(./assets/background_colour.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0%;
+  height: 100vh;
+}
+
+.phone{
+  position: absolute;
+  width: 205px;
+  height: 550px;
+  left: 100px;
+  top: 30px;
+}
+
+main > h1{
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 500px;
+  top: 50px;
+
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 80px;
+/* or 100% */
+
+  letter-spacing: 0.654118px;
+
+  color: #FFFFFF;
+}
